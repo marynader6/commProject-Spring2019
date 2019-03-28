@@ -14,7 +14,7 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
   - BPSK Demodulator Baseband
   - Error rate calculation
   - Display : will show you three values. The first value is the BER, the second value is the number of incorrect bits, and the               third value is the total number of bits received).
-  - 2* Constellation diagram (scatter plot) 
+  - 2* Constellation diagram (It is a representation of a signal modulated by a digital modulation scheme .It displays the signal as a two-dimensional xy-plane scatter diagram in the complex plane at symbol sampling instants. The angle of a point, measured counterclockwise from the horizontal axis, represents the phase shift of the carrier wave from a reference phase.).
   - To workspace (choose variable name) (used to get BER vs Eb/No figure)
 - Connect them in the same order they'd listed **except**
   - Random generator: connect it with **Error rate calculation** also
@@ -78,5 +78,7 @@ They are the same as the previous schemes except some changes:
 ![FSK](https://github.com/marynader6/commProject-Spring2019/blob/master/FSK.png)
 
 
+# QAM(16-64) Modulation scheme
+## Explanation
 
 
