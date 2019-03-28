@@ -31,5 +31,8 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
   - Change Eb/No range to -10:10, change modulation type according to each scheme, then click plot
   - Click on “Monte Carlo” tab
   - Change Eb/No range to -10:.5:10, browse and choose your simulink model, write variable name of “To workspace “ block,  then click on run
+  
+## Scatter plot
+
 
 
