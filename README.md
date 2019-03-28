@@ -7,7 +7,7 @@
 
 
 ## Instructions
-        * To get blocks click on the model (white sketch ) and write name of the block you want.
+* To get blocks click on the model (white sketch ) and write name of the block you want.
         * Double click on Random integer generator ,change *M-ary number* to 2.
         * Double click on error rate calculation block and in *output data* choose port instead of workspace,so you can connect the                 Display block.
         * Double click on To workspace block change *limit data points to last* to 2, then *save format* to array,
