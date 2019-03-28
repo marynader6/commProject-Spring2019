@@ -34,5 +34,8 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
   
 ## Scatter plot
 ![BPSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSKB.PNG)
+![BPSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSKAfter.PNG)
 
+## BER performance figure
+![BPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSK.png)
 
