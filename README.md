@@ -14,11 +14,22 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
   - BPSK Demodulator Baseband
   - Error rate calculation
   - Display : will show you three values. The first value is the BER, the second value is the number of incorrect bits, and the               third value is the total number of bits received).
-  - To workspace (choose variable name) (used to get BER vs Eb/No figure)
   - 2* Constellation diagram (scatter plot) 
-
+  - To workspace (choose variable name) (used to get BER vs Eb/No figure)
+- Connect them in the same order they'd listed **except**
+  - Random generator: connect it with **Error rate calculation** also
+  - Error rate calculation: connect it to **To workspace** 
+  - Constellation diagram: connect one before AWGN channel and the other after the channel
 - Double click on Random integer generator ,change **M-ary number** to 2.
 - Double click on error rate calculation block and in **output data** choose port instead of workspace,so you can connect the               Display block.
 - Double click on To workspace block change **limit data points to last** to 2, then **save format** to array, 
   then **save 2-D signals as** choose 2-D array.
-- 
+- To run the model and see the scatter plots click on run button.
+- To get BER vs Eb/No figure:
+  - Double click on AWGN channel and change “Eb/No” to EbNo
+  - In command window of matlab write bertool 
+  - Change Eb/No range to -10:10, change modulation type according to each scheme, then click plot
+  - Click on “Monte Carlo” tab
+  - Change Eb/No range to -10:.5:10, browse and choose your simulink model, write variable name of “To workspace “ block,  then click on run
+
+
