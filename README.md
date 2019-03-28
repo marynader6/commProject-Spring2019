@@ -80,5 +80,25 @@ They are the same as the previous schemes except some changes:
 
 # QAM(16-64) Modulation scheme
 ## Explanation
+Quadrature amplitude modulation (QAM) is the name of a family of digital modulation methods.It conveys two digital bit streams, by changing (modulating) the amplitudes of two carrier waves, using the amplitude-shift keying (ASK) digital modulation scheme or amplitude modulation (AM) analog modulation scheme. The two carrier waves of the same frequency are out of phase with each other by 90°, a condition known as orthogonality and as quadrature.  Since in digital telecommunications the data is usually binary, the number of points in the grid is usually a power of 2 (2, 4, 8, …). Since QAM is usually square, some of these are rare—the most common forms are 16-QAM, 64-QAM and 256-QAM. By moving to a higher-order constellation, it is possible to transmit more bits per symbol. 
 
+## Instructions
+They are the same as the previous schemes except some changes:
+- QAM modulator and demodulator blocks
+- Double click on Random integer generator ,change **M-ary number** to 16 in case of QAM16 and 64 in case of QAM64.
 
+## Scatter plot
+### QAM16 Before Noise
+![QAM16B](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM16B.png)
+### QAM16 After Noise
+![QAM16A](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM16A.png)
+### QAM64 Before Noise
+![QAM64B](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM64B.png)
+### QAM64 After Noise
+![QAM64A](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM64A.png)
+
+## BER performance figure
+### QAM16
+![QAM16](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM.png)
+### QAM64
+![QAM64](https://github.com/marynader6/commProject-Spring2019/blob/master/QAMe.png)
