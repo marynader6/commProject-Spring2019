@@ -58,3 +58,25 @@ They are the same as BPSK except some changes:
 
 ## BER performance figure
 ![QPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/QFSK.png)
+
+# FSK Modulation scheme
+## Explanation
+Frequency-shift keying (FSK) is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.The output of a FSK modulated wave is high in frequency for a binary High input and is low in frequency for a binary Low input. The binary 1s and 0s are called Mark and Space frequencies.
+
+## Instructions
+They are the same as the previous schemes except some changes:
+- FSK modulator and demodulator blocks
+- Double click on Random integer generator ,change **M-ary number** to 8.
+
+## Scatter plot
+### Before Noise
+![FSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/FSKB.png)
+### After Noise
+![FSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/FSKA.png)
+
+## BER performance figure
+![FSK](https://github.com/marynader6/commProject-Spring2019/blob/master/FSK.png)
+
+
+
+
