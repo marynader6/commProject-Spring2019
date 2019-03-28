@@ -35,12 +35,16 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
 ## Scatter plot
 ### Before Noise
 ![BPSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSKB.PNG)
+#### With Raised cosine filter
+![BPSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/RBPSKB.png)
 ### After Noise
 ![BPSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSKAfter.PNG)
-
+#### With Raised cosine filter
+![BPSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/RBPSKA.png)
 ## BER performance figure
 ![BPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSK.png)
-
+#### With Raised cosine filter
+![BPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/RBPSK.png)
 # QPSK Modulation scheme
 ## Explanation
 Quadrature Phase Shift Keying (QPSK)or sometimes called as 4-PSK is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, or 270 degrees). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth. 
@@ -53,12 +57,16 @@ They are the same as BPSK except some changes:
 ## Scatter plot
 ### Before Noise
 ![QPSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/QPSKB.PNG)
+#### With Raised cosine filter
+![RQPSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/RQPSKB.PNG)
 ### After Noise
 ![QPSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/QPSKA.PNG)
-
+#### With Raised cosine filter
+![RQPSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/RQPSKA.PNG)
 ## BER performance figure
 ![QPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/QFSK.png)
-
+#### With Raised cosine filter
+![RQPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/RQPSK.png)
 # FSK Modulation scheme
 ## Explanation
 Frequency-shift keying (FSK) is a frequency modulation scheme in which digital information is transmitted through discrete frequency changes of a carrier signal.The output of a FSK modulated wave is high in frequency for a binary High input and is low in frequency for a binary Low input. The binary 1s and 0s are called Mark and Space frequencies.
@@ -71,12 +79,16 @@ They are the same as the previous schemes except some changes:
 ## Scatter plot
 ### Before Noise
 ![FSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/FSKB.png)
+#### With Raised cosine filter
+![FSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/RFSKB.PNG)
 ### After Noise
 ![FSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/FSKA.png)
-
+#### With Raised cosine filter
+![FSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/RFSKA.PNG)
 ## BER performance figure
 ![FSK](https://github.com/marynader6/commProject-Spring2019/blob/master/FSK.png)
-
+#### With Raised cosine filter
+![FSK](https://github.com/marynader6/commProject-Spring2019/blob/master/RFSK.png)
 
 # QAM(16-64) Modulation scheme
 ## Explanation
@@ -90,8 +102,12 @@ They are the same as the previous schemes except some changes:
 ## Scatter plot
 ### QAM16 Before Noise
 ![QAM16B](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM16B.png)
+#### With Raised cosine filter
+![QAM16B](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM16B.png)
 ### QAM16 After Noise
 ![QAM16A](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM16A.png)
+#### With Raised cosine filter
+![QAM16A](https://github.com/marynader6/commProject-Spring2019/blob/master/RQAM16A.PNG)
 ### QAM64 Before Noise
 ![QAM64B](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM64B.png)
 ### QAM64 After Noise
@@ -100,5 +116,8 @@ They are the same as the previous schemes except some changes:
 ## BER performance figure
 ### QAM16
 ![QAM16](https://github.com/marynader6/commProject-Spring2019/blob/master/QAM.png)
+#### With Raised cosine filter
+![QAM16](https://github.com/marynader6/commProject-Spring2019/blob/master/RQAM16.png)
+
 ### QAM64
 ![QAM64](https://github.com/marynader6/commProject-Spring2019/blob/master/QAMe.png)
