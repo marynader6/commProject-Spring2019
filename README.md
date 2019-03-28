@@ -28,9 +28,9 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
 - To get BER vs Eb/No figure:
   - Double click on AWGN channel and change “Eb/No” to EbNo
   - In command window of matlab write bertool 
-  - Change Eb/No range to -10:10, change modulation type according to each scheme, then click plot
+  - Change Eb/No range to -10:10
   - Click on “Monte Carlo” tab
-  - Change Eb/No range to -10:.5:10, browse and choose your simulink model, write variable name of “To workspace “ block,  then click on run
+  - Change Eb/No range to -10:.5:10, browse and choose your simulink model, write variable name of **To workspace** block,  then click on run
   
 ## Scatter plot
 ### Before Noise
@@ -41,3 +41,20 @@ s0(t)=Ac cos(2πfct+π),0≤t≤Tb for binary 0
 ## BER performance figure
 ![BPSKber](https://github.com/marynader6/commProject-Spring2019/blob/master/BPSK.png)
 
+# QPSK Modulation scheme
+## Explanation
+Quadrature Phase Shift Keying (QPSK)or sometimes called as 4-PSK is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, or 270 degrees). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth. 
+
+## Instructions
+They are the same as BPSK except some changes:
+- QPSK modulator and demodulator blocks
+- Double click on Random integer generator ,change **M-ary number** to 4.
+
+## Scatter plot
+### Before Noise
+![QPSKB](https://github.com/marynader6/commProject-Spring2019/blob/master/QPSKB.PNG)
+### After Noise
+![QPSKA](https://github.com/marynader6/commProject-Spring2019/blob/master/QPSKA.PNG)
+
+## BER performance figure
+![QPSKber]https://github.com/marynader6/commProject-Spring2019/blob/master/QFSK.png
